@@ -450,9 +450,9 @@ def today_date_list():
     return [datetime.now().day, datetime.now().month, datetime.now().year]
     
 def today_date():
-    """ Return today date dd.mm.yyyy like 28.02.2015 """
+    """ Return today date yyyy-mm-dd like 2020-04-25 """
 
-    return datetime.now().strftime("%d/%m/%Y")
+    return datetime.now().strftime("%Y-%m-%d")
 
 
 
